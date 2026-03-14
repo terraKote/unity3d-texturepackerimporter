@@ -5,7 +5,7 @@
     "name": "Denys (terraKote) Kushnirenko",
     "url": "https://github.com/terraKote/unity3d-texturepackerimporter"
   },
-  "version": "1.0",
+  "version": "1.0.0",
   "unity": "6000.0",
   "description": "Provides an efficient way to import packed sprite atlases to Unity.",
   "keywords": [
