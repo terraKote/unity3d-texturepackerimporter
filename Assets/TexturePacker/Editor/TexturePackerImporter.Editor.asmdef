@@ -1,0 +1,16 @@
+{
+    "name": "TexturePackerImporter.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:50bc7e13da0430e459baa74769514a84"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
