@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 /* Based on the JSON parser from 
@@ -377,7 +378,7 @@ s += Char.ConvertFromUtf32((int)codePoint);
 
 		Array.Copy( json, index, numberCharArray, 0, charLength );
 		index = lastIndex + 1;
-		return float.Parse( new string( numberCharArray ) ); // , CultureInfo.InvariantCulture);
+		return float.Parse( new string( numberCharArray ), CultureInfo.InvariantCulture );
 	}
 	
 	
