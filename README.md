@@ -1,23 +1,30 @@
-#Unity3D - Texture Packer Importer
-[![Build Status](https://travis-ci.org/haysclark/unity3d-texturepackerimporter.png)](https://travis-ci.org/haysclark/unity3d-texturepackerimporter)
+# Unity - Texture Packer Importer
 
-Grab the latest Unity Package here!<br>
-[TexturePackerImporter.unitypackage](http://haysclark.github.io/unity3d-texturepackerimporter/package/TexturePackerImporter.unitypackage)
+UPM Package
+---
+### Install via git URL
 
-## Authors
+Requires a version of unity that supports path query parameter for git packages (Unity >= 2019.3.4f1, Unity >= 2020.1a21). You can add `https://github.com/terraKote/unity3d-texturepackerimporter.git?path=Assets/TexturePacker` to Package Manager.
+
+Authors
+---
+### Original tool by
 * Mitch Thompson
 * Harald Lurger
 * Hays Clark
+
+### Package maintainers
+* Denys (terraKote) Kushnirenko
 
 ## Video Tutorial
 There is a tutorial for this plugin here:
 http://www.youtube.com/watch?v=CHQmvC1pqaY
 
 ## Instructions
-How to import texture sheets from Texture Packer
+How to import texture sheets from [Texture Packer](https://www.codeandweb.com) or [Free Texture Packer](https://free-tex-packer.com).
 
 ### TexturePacker settings:
-	Data Format:  Unity3D (or JSON Hashtable, then change extension from .json to .txt so Unity picks it up as a text asset)
+	Data Format:  Unity3D (or JSON Hashtable, no change of extension is required)
 	Allow rotation is OK
 	Everything else at your discretion
 	Power of 2 output textures are suggested.
@@ -26,7 +33,7 @@ How to import texture sheets from Texture Packer
 	Create a folder in your Assets/ directory for your imported sprites.
 	Copy the TXT and Image file (PNG, TGA, etc) into that folder.
 	Your paths should look something like:
-		Assets/MySprite/MySprite.txt
+		Assets/MySprite/MySprite.json
 		Assets/MySprite/MySprite.png
 			
 ### Shaders:
@@ -37,7 +44,3 @@ How to import texture sheets from Texture Packer
 	Vertex Color - 
 		Does not have an inspector-tweakable color property.  All colors must be set by altering the colors[] or colors32[] array of a given mesh.  
 		Supports both texture alpha and vertex color alpha.
-
-## About Texture Packer		
-http://www.texturepacker.com/
-
